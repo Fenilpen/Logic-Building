@@ -68,4 +68,11 @@ Write a function getNames(arr) that takes an array of objects where each object 
 Task 5: Find the Longest Word
 Write a function findLongestWord(arr) that takes an array of strings and returns the longest word using reduce() and an arrow function
 
+answers
 
+task 1
+const squareNumbers = (arr) => {
+   return arr.map((e) => e * e)
+    
+}
+console.log(squareNumbers([1,2,3,4,5,6]))
