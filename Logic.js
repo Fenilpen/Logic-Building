@@ -75,4 +75,19 @@ const squareNumbers = (arr) => {
    return arr.map((e) => e * e)
     
 }
-console.log(squareNumbers([1,2,3,4,5,6]))
+
+task 2
+const filterEvenNumbers = (arr) => {
+    return arr.filter((e) => e % 2 === 0)
+};
+
+task 3
+const sumPositiveNumbers = (arr) => {
+    let fil = arr.filter((e) => e > 0 )
+   return fil.reduce((a,e) => a = a + e ,0)
+};
+
+task 4
+const getNames = (arr) => {
+    return arr.map((e) => e.name )
+};
