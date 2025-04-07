@@ -19,6 +19,7 @@ function sumOfN(n) {
     }
     return result
 }
+sumOfN(5)
 
  function printMultiplicationTable(n) {
     let table = []
@@ -28,6 +29,7 @@ function sumOfN(n) {
     }
     return table
 }
+printMultiplicationTable(2)
 
 
 function countVowels (str) {
@@ -40,11 +42,9 @@ function countVowels (str) {
     }
     return total
 }
-
-
-sumOfN(5)
-printMultiplicationTable(2)
 countVowels('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')  
+
+
 
 
 
