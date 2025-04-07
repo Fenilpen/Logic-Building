@@ -91,3 +91,24 @@ task 4
 const getNames = (arr) => {
     return arr.map((e) => e.name )
 };
+
+task 5
+const findLongestWord = (arr) => 
+   arr.reduce((a,e) => e.length > a.length ? e : a ,"");
+
+squareNumbers([1,2,3,4,5,6])
+
+filterEvenNumbers([22,33,44,55,66,77])
+
+sumPositiveNumbers([0.1,1,2,0.7,3])
+
+getNames([
+   {name: "Alice"}, 
+   {name: "Bob"},
+   {name: "Charlie"}
+])
+
+findLongestWord(['banana','three','abcd'])
+
+qustions
+
