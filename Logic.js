@@ -71,42 +71,41 @@ Write a function findLongestWord(arr) that takes an array of strings and returns
 answers
 
 task 1
+
 const squareNumbers = (arr) => {
    return arr.map((e) => e * e)
     
 }
+squareNumbers([1,2,3,4,5,6])
 
 task 2
 const filterEvenNumbers = (arr) => {
     return arr.filter((e) => e % 2 === 0)
 };
 
+filterEvenNumbers([22,33,44,55,66,77])
+
 task 3
 const sumPositiveNumbers = (arr) => {
     let fil = arr.filter((e) => e > 0 )
    return fil.reduce((a,e) => a = a + e ,0)
 };
+sumPositiveNumbers([0.1,1,2,0.7,3])
 
 task 4
 const getNames = (arr) => {
     return arr.map((e) => e.name )
 };
 
-task 5
-const findLongestWord = (arr) => 
-   arr.reduce((a,e) => e.length > a.length ? e : a ,"");
-
-squareNumbers([1,2,3,4,5,6])
-
-filterEvenNumbers([22,33,44,55,66,77])
-
-sumPositiveNumbers([0.1,1,2,0.7,3])
-
 getNames([
    {name: "Alice"}, 
    {name: "Bob"},
    {name: "Charlie"}
 ])
+
+task 5
+const findLongestWord = (arr) => 
+   arr.reduce((a,e) => e.length > a.length ? e : a ,"");
 
 findLongestWord(['banana','three','abcd'])
 
