@@ -14,7 +14,55 @@ Task 4:
 Write a function isItTruthy that takes an input and returns "It's truthy!" if the value is truthy in JavaScript, or "It's falsey!" if it's falsey.
 
 
+Answers
 
+1/
+function stringToNumber(input) {
+    let num = Number(input)
+    if (isNaN(num)){
+        let conv = "Not a number"
+        return conv
+    } else {
+        return num 
+    }``
+}
+
+2/
+function flipBoolean(input) {
+    let conv = Boolean(input)
+    return !conv
+}
+
+3/
+function whatAmI(input) {
+    const converted = Number(input); 
+
+    if (!isNaN(converted)) {
+        return "I'm a number!";
+    } else if (typeof input === 'string') {
+        return "I'm a string!";
+    } else {
+        return "I'm something else!";
+    }
+
+
+}
+
+4/
+function isItTruthy(input) {
+
+    if (input){
+        return   "It's truthy!"
+    }
+    else {
+        return "It's falsey!"
+    }
+}
+
+whatAmI("fenil")
+stringToNumber("11")
+flipBoolean(0)
+isItTruthy("fenil")
 
 
 
