@@ -13,6 +13,55 @@ Decrement
 Reminder
 
 
+answers
+
+// **** DO NOT CHANGE the values *****
+const a = 18;
+const b = 24;
+
+// Addition of two values
+function add() {
+    const result = a + b
+    return result
+}
+add(a,b)
+
+
+// Subtract small value from larger one
+function subtract() {
+    const resul = b - a
+    return resul;
+}
+subtract()
+
+
+
+function multiply() {
+    return a * b;
+}
+multiply()
+
+
+// Divide larger value by small
+function divide() {
+    return b / a;
+}
+
+
+// Increase value of a by 1
+function increment() {
+    return a + 1;
+}
+
+// Decrease value of b by 1
+function decrement() {
+    return b - 1;
+}
+
+// Divide larger value by small to find the reminder
+function reminder() {
+    return b % a;
+}
 
 
 Questions 
