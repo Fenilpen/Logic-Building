@@ -17,6 +17,38 @@ Write a function removeDuplicates(arr) that returns a new array with all duplica
 Task 5: Flatten a Nested Array
 Write a function flattenArray(arr) that takes a nested array and returns a single flattened array
 
+Answers
+
+function filterNumbers(arr) {
+    let result = arr.filter(i => typeof i === "number")
+    return result
+}
+
+function reverseArray(arr) {
+  let result = arr.toReversed()
+  return result;
+}
+
+function findMax(arr) {
+  let max = Math.max(...arr)
+  return max;
+}
+
+function removeDuplicates(arr) {
+  return [...new Set(arr)]
+}
+
+function flattenArray(arr) {
+  let result = arr.flat(Infinity)
+  return result;
+}
+
+flattenArray([1,2,3,4,[2,3,5,],45,76])
+removeDuplicates([1, 2, 2, 3, 4, 4, 5])
+findMax([1,2,4,6,8,9])
+reverseArray([1,2,3,4,5])
+filterNumbers([1,"dd",33,true,"gg","hh",66,undefined,64,null])
+
 
 qustion
 Playing with Variables
